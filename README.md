@@ -1,28 +1,50 @@
-# Métodos Numéricos en Python
+<p align="center">
+  <img src="assets/banner.png" width="850">
+</p>
 
-Implementaciones en Python de métodos numéricos aplicados a ingeniería y ciencias,
-con énfasis en estabilidad numérica, convergencia y análisis del error.
+<h1 align="center">Métodos Numéricos en Python</h1>
+
+<p align="center">
+  Implementaciones claras y reproducibles de métodos numéricos aplicados a ingeniería y ciencias,
+  con énfasis en estabilidad numérica, convergencia y análisis del error.
+</p>
+
+---
+
+## Descripción
+
+Este repositorio contiene implementaciones en Python de los principales métodos numéricos utilizados
+en ingeniería, física y ciencias aplicadas. El objetivo es proporcionar código claro, bien estructurado
+y acompañado de fundamentos matemáticos, priorizando la comprensión del método y su comportamiento
+numérico antes que la optimización extrema.
 
 ---
 
 ## Contenido
-- Álgebra lineal numérica
-- Búsqueda de raíces de ecuaciones
-- Interpolación polinómica y splines
-- Integración y derivación numérica
-- Ecuaciones diferenciales ordinarias
-- Integradores simplécticos y sistemas dinámicos
+
+| Área | Métodos |
+|-----|--------|
+| Álgebra lineal | Eliminación gaussiana, LU, Jacobi, Gauss-Seidel |
+| Raíces de ecuaciones | Bisección, falsa posición, Newton-Raphson, secante |
+| Interpolación | Lagrange, Newton, splines cúbicos |
+| Integración numérica | Trapecio, Simpson 1/3, Simpson 3/8 |
+| Ecuaciones diferenciales | Euler, Euler mejorado, Runge-Kutta 4 |
+| Sistemas dinámicos | Verlet, Yoshida, integradores simplécticos |
 
 ---
 
-## Objetivo del repositorio
-Este repositorio tiene un enfoque educativo y práctico. Cada método está implementado
-priorizando claridad, fundamento matemático y reproducibilidad de resultados, incluyendo
-ejemplos y visualizaciones cuando corresponde.
+## Filosofía del repositorio
+
+- Código claro y documentado
+- Fundamento matemático explícito
+- Análisis de error y convergencia
+- Comparación entre métodos
+- Visualización de resultados cuando es relevante
 
 ---
 
 ## Estructura del proyecto
+
 ```text
 metodos-numericos-python/
 ├── algebra_lineal/
@@ -31,4 +53,5 @@ metodos-numericos-python/
 ├── integracion/
 ├── edo/
 ├── integradores/
-└── notebooks/
+├── notebooks/
+└── utils/
