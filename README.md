@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" width="850">
+  <img src="https://nixtensor.online/favicon.ico" width="850">
 </p>
 
 <h1 align="center">Métodos Numéricos en Python</h1>
